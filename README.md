@@ -1,6 +1,6 @@
 # Terraform para Proxmox: Creación de VMs
 
-![Linux Spartan](https://example.com/linux-spartan.png)
+![Linux Spartan](https://pbs.twimg.com/profile_images/1150337228/santang-king-leonidas-2558_400x400.png)
 
 Este proyecto utiliza Terraform para automatizar la creación de máquinas virtuales (VMs) en un entorno Proxmox. El código está diseñado para ser modular y reutilizable, permitiendo la creación de múltiples VMs con configuraciones personalizadas.
 
