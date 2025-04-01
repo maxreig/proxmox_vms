@@ -1,0 +1,17 @@
+// Nota: Asegúrate de que las plantillas "example_redhat9_template" y "example_win11_template"
+// existan previamente en el almacenamiento configurado en el nodo de Proxmox.
+// Por ejemplo, las plantillas pueden estar en "local" o "local-lvm".
+// Internamente, Proxmox almacena las plantillas en el path "/var/lib/vz/template/qemu/".
+
+proxmox_api_url    = "https://proxmox.example.com:8006/api2/json"
+proxmox_user       = "root@pam"
+proxmox_password   = "example_password"
+proxmox_node       = "example_node"
+proxmox_storage    = "local"  // Almacenamiento donde están las plantillas
+proxmox_bridge     = "vmbr0"
+
+redhat9_template   = "example_redhat9_template"
+win11_template     = "example_win11_template"
+
+redhat9_ssh_user   = "example_user"
+redhat9_ssh_password = "example_password"
